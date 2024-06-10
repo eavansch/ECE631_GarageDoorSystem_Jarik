@@ -1,0 +1,230 @@
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:115: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(reset, GPIO.OUT)
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:118: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(cs, GPIO.OUT)
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:82: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 83, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:82: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 83, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:82: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 83, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:82: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 83, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:118: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(cs, GPIO.OUT)
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:82: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 83, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:82: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 83, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:82: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 83, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:82: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 83, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:118: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(cs, GPIO.OUT)
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:115: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(reset, GPIO.OUT)
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:118: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(cs, GPIO.OUT)
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:83: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 84, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:83: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 84, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:83: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 84, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:83: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 84, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:118: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(cs, GPIO.OUT)
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 59
+    continue
+    ^^^^^^^^
+SyntaxError: invalid syntax
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:89: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 90, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:89: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 90, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:89: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 90, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:89: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 90, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:118: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(cs, GPIO.OUT)
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:95: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 96, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:95: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 96, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:95: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 96, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:118: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(cs, GPIO.OUT)
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:95: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 96, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:95: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 96, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:95: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 96, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py:95: RuntimeWarning: No channels have been set up yet - nothing to clean up!  Try cleaning up at the end of your program instead!
+  GPIO.cleanup()
+Traceback (most recent call last):
+  File "/home/ubuntu/ECE631/spring24final/Spring24Final_NFC_UID.py", line 96, in <module>
+    del MQTTPub
+NameError: name 'MQTTPub' is not defined
+/home/ubuntu/ECE631/spring24final/pn532/spi.py:118: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(cs, GPIO.OUT)

@@ -1,0 +1,283 @@
+{
+	"version": 1,
+	"allow_edit": true,
+	"plugins": [],
+	"panes": [
+		{
+			"title": "UDS Distance to vehicle",
+			"width": 1,
+			"row": {
+				"3": 1
+			},
+			"col": {
+				"3": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"title": "Vehicle distance to wall",
+						"value": "datasources[\"Distance Sensor\"][\"msg\"][\"Distance\"]",
+						"units": "inches",
+						"min_value": 0,
+						"max_value": "15"
+					}
+				}
+			]
+		},
+		{
+			"title": "Hall Effect Sensor Value",
+			"width": 1,
+			"row": {
+				"3": 1
+			},
+			"col": {
+				"3": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"title": "Garage door sensor",
+						"value": "datasources[\"Hall Effect Sensor (Erik)\"][\"msg\"][\"Value\"]",
+						"min_value": "-10",
+						"max_value": "1000"
+					}
+				}
+			]
+		},
+		{
+			"title": "Garage Door State",
+			"width": 1,
+			"row": {
+				"3": 1
+			},
+			"col": {
+				"3": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"title": "Garage Door State",
+						"size": "regular",
+						"value": "datasources[\"Garage Door State\"][\"msg\"][\"State\"]",
+						"animate": true
+					}
+				}
+			]
+		},
+		{
+			"title": "NFC Access",
+			"width": 1,
+			"row": {
+				"3": 5
+			},
+			"col": {
+				"3": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "ragIndicator",
+					"settings": {
+						"value": "datasources[\"NFC Access\"][\"msg\"][\"RAG\"]",
+						"green_text": "Authorized",
+						"amber_text": "Awaiting scan...",
+						"red_text": "Denied",
+						"indicator_type": "datasources[\"RAG State\"][\"msg\"][\"RAGState\"]"
+					}
+				}
+			]
+		},
+		{
+			"title": "NFC Card User ID",
+			"width": 1,
+			"row": {
+				"3": 9
+			},
+			"col": {
+				"3": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"title": "",
+						"size": "regular",
+						"value": "datasources[\"NFC UID\"][\"msg\"][\"UID\"]",
+						"animate": true
+					}
+				}
+			]
+		},
+		{
+			"title": "Distance to HE Sensor",
+			"width": 1,
+			"row": {
+				"3": 9
+			},
+			"col": {
+				"3": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "ragIndicator",
+					"settings": {
+						"value": "datasources[\"RAG2\"][\"msg\"][\"RAG2\"]",
+						"green_text": "Go",
+						"amber_text": "Slow down..",
+						"red_text": "STOP"
+					}
+				}
+			]
+		},
+		{
+			"title": "LED Flash Rate",
+			"width": 1,
+			"row": {
+				"3": 13
+			},
+			"col": {
+				"3": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"LED\"][\"msg\"][\"Flash Rate\"]",
+						"units": "milliseconds",
+						"min_value": "100",
+						"max_value": "5000"
+					}
+				}
+			]
+		}
+	],
+	"datasources": [
+		{
+			"name": "NFC Access",
+			"type": "paho_mqtt",
+			"settings": {
+				"server": "192.168.1.125",
+				"port": 8080,
+				"use_ssl": false,
+				"client_id": "",
+				"username": "",
+				"password": "",
+				"topic": "ece631/FinalProject/RAG",
+				"json_data": true,
+				"name": "NFC Access"
+			}
+		},
+		{
+			"name": "NFC UID",
+			"type": "paho_mqtt",
+			"settings": {
+				"server": "192.168.1.125",
+				"port": 8080,
+				"use_ssl": false,
+				"client_id": "",
+				"username": "",
+				"password": "",
+				"topic": "ece631/FinalProject/NFC/UID",
+				"json_data": true,
+				"name": "NFC UID"
+			}
+		},
+		{
+			"name": "Hall Effect Sensor (Erik)",
+			"type": "paho_mqtt",
+			"settings": {
+				"server": "192.168.1.125",
+				"port": 8080,
+				"use_ssl": false,
+				"client_id": "",
+				"username": "",
+				"password": "",
+				"topic": "ece631/FinalProject/HallEffect/SensorID/0",
+				"json_data": true
+			}
+		},
+		{
+			"name": "RAG State",
+			"type": "paho_mqtt",
+			"settings": {
+				"server": "192.168.1.125",
+				"port": 8080,
+				"use_ssl": false,
+				"client_id": "",
+				"username": "",
+				"password": "",
+				"topic": "ece631/FinalProject/RAG/RAGState",
+				"json_data": true,
+				"name": "RAG State"
+			}
+		},
+		{
+			"name": "LED",
+			"type": "paho_mqtt",
+			"settings": {
+				"server": "192.168.1.125",
+				"port": 8080,
+				"use_ssl": false,
+				"client_id": "",
+				"username": "",
+				"password": "",
+				"topic": "ece631/FinalProject/LED/#",
+				"json_data": true,
+				"name": "LED"
+			}
+		},
+		{
+			"name": "Garage Door State",
+			"type": "paho_mqtt",
+			"settings": {
+				"server": "192.168.1.125",
+				"port": 8080,
+				"use_ssl": false,
+				"client_id": "",
+				"username": "",
+				"password": "",
+				"topic": "ece631/FinalProject/DoorState",
+				"json_data": true,
+				"name": "Garage Door State"
+			}
+		},
+		{
+			"name": "RAG2",
+			"type": "paho_mqtt",
+			"settings": {
+				"server": "192.168.1.109",
+				"port": 8080,
+				"use_ssl": false,
+				"client_id": "",
+				"username": "",
+				"password": "",
+				"topic": "ece631/FinalProject/RAG2",
+				"json_data": true
+			}
+		},
+		{
+			"name": "Distance Sensor",
+			"type": "paho_mqtt",
+			"settings": {
+				"server": "192.168.1.125",
+				"port": 8080,
+				"use_ssl": false,
+				"client_id": "",
+				"username": "",
+				"password": "",
+				"topic": "ece631/FinalProject/Distance/SensorID/0",
+				"json_data": true
+			}
+		}
+	],
+	"columns": 3
+}
